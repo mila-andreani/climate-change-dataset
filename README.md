@@ -15,7 +15,7 @@ The dataset contains also the stationarised version of the historical and projec
 
 Two additional files are present: the _'countries_info.xlsx'_ file contains info on the ISO-3 country codes and ids used in the dataset. The _'proj_gdp.xlsx'_ contains additional projections of GDP every 5 years up to 2100.
 
-The code contained in the folder **_'Code'_** allows to re-create the the longitudinal datasets (also the stationarized version) starting from raw data, contained in the .zip files 'raw_data' to be unzipped before running the code.
+The code contained in the folder **_'R'_** allows to re-create the the longitudinal datasets (also the stationarized version) using R starting from raw data, contained in the .zip files 'raw_data' to be unzipped before running the code.
 
 The following paragraphs contain additional info on the dataset.
 
