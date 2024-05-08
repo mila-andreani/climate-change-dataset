@@ -1,3 +1,5 @@
+![alt text]([http://url/to/img.png](https://www.ft.com/__origami/service/image/v2/images/raw/https%3A%2F%2Fd1e00ek4ebabms.cloudfront.net%2Fproduction%2Ff4c1e8c8-65e1-4c45-b595-3a32bcb29a61.jpg?source=next-article&fit=scale-down&quality=highest&width=700&dpr=1))
+
 # Climate Change Projections Dataset
 Climate change stands as one of the defining challenges of the 21st century, with its far-reaching impacts permeating every facet of human existence. From altering weather patterns to exacerbating natural disasters, the consequences of a warming planet reverberate across ecosystems, economies, and societies worldwide.
 
