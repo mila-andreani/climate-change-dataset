@@ -3,21 +3,25 @@
 </p>
 
 # Climate Change Projections Dataset
-Climate change stands as one of the defining challenges of the 21st century, with its far-reaching impacts permeating every facet of human existence. From altering weather patterns to exacerbating natural disasters, the consequences of a warming planet reverberate across ecosystems, economies, and societies worldwide.
 
-This dataset has been specifically created and used in my PhD thesis to assess the effects of such distruptive changes on the economic system by leveraging a novel machine learning algorithm developed in the same thesis and published here [^1].
+Climate change is shaping a  world different from the one that we are used to. The urgent need to adapt to this new reality and mitigate climate-related risks led to the implementation of numerous climate policies fostering the transition to a low-carbon economy. 
+
+_...But what will happen if the climate targets won't be met? How will future socio-economic adaptations reshape the reality that we currently live in?_
+
+This dataset have been created to help researcher to make a little step towards answering these questions. This is part of my PhD thesis, in which a novel machine learning algorithm developed in the same dissertation [^1] has been used to assess the effects of the distruptive changes induced by climate shocks on the future economic system.
 
 [^1]: Andreani, Mila, Lea Petrella, and Nicola Salvati. "New advances in Regression Forests." Statistical Learning, Sustainability and Impact Evaluation. Pearson, 2023. 1297-1302.
 
-In particular, the dataset amalgamates historical climate data with forward-looking projections derived from CMIP6 simulations[^2] in a longitudinal shape. Spanning the period from 1995 to 2100 and encompassing 210 countries, the dataset offers the possibility to researcher to assess the presence of climate-economic interactions. For each country-year observation, key climate variables such as temperature, precipitation, and extreme weather indices are included, alongside GDP per capita data sourced from the World Bank. Additionally, the dataset incorporates covariates representing historical values of projected climate variables, enabling researchers to explore the nuanced relationships between climate dynamics and economic outcomes.
+In particular, the dataset amalgamates historical climate data with forward-looking projections derived from the Coupled Model Intercomparison Project Phase 6 (CMIP6) simulations [^2] in a longitudinal shape. Spanning the period from 1995 to 2100 and encompassing 210 countries, the dataset offers the possibility to researcher to assess the presence of climate-economic interactions. For each country-year observation, key climate variables such as temperature, precipitation, and extreme weather indices are included, alongside GDP per capita data sourced from the World Bank. 
 
 [^2]: GDP projected data: https://tntcat.iiasa.ac.at/SspDb/dsd?Action=htmlpage&page=citation, 
 GDP historical data: https://data.worldbank.org/, 
 Climate-related variables historical and projected data: https://climateknowledgeportal.worldbank.org
 
+
 # Dataset description and Code
 
-The dataset contains annual longitudinal data concerning climate-related variables and GDP. The folder **_'hist'_** contains historical data from 1995 to 2014 of 210 countries, whereas the folder **_'projections'_** contains annual projected data of the climate-related variables as formulated in the Coupled Model Intercomparison Project Phase 6 (CMIP6) from 2015 to 2100 under four different scenarios: SSP1, SSP2, SSP3, SSP5.
+The dataset contains annual longitudinal data concerning climate-related variables and GDP. The folder **_'hist'_** contains historical data from 1995 to 2014 of 210 countries, whereas the folder **_'projections'_** contains annual projected data of the climate-related variables as formulated in CMIP6 from 2015 to 2100 under four different scenarios: SSP1, SSP2, SSP3, SSP5.
 
 The dataset contains also the stationarised version of the historical and projected dataframes.
 
@@ -77,4 +81,4 @@ SSP4 portrays a future defined by stark socio-economic disparities and limited e
 
 SSP5 represents a future where economic growth is prioritized over environmental concerns. It envisions high population growth, rapid technological progress focused on fossil fuel extraction, and limited efforts to mitigate climate change. This pathway underscores the risks of continued reliance on fossil fuels and the need for transformative change.
 
-
+</p>
