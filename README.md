@@ -7,8 +7,8 @@ This dataset has been specifically created and used in my PhD thesis to assess t
 
 In particular, the dataset amalgamates historical climate data with forward-looking projections derived from CMIP6 simulations[^2] in a longitudinal shape. Spanning the period from 1995 to 2100 and encompassing 210 countries, the dataset offers the possibility to researcher to assess the presence of climate-economic interactions. For each country-year observation, key climate variables such as temperature, precipitation, and extreme weather indices are included, alongside GDP per capita data sourced from the World Bank. Additionally, the dataset incorporates covariates representing historical values of projected climate variables, enabling researchers to explore the nuanced relationships between climate dynamics and economic outcomes.
 
-[^2]: GDP projected data: https://tntcat.iiasa.ac.at/SspDb/dsd?Action=htmlpage&page=citation
-GDP historical data: https://data.worldbank.org/
+[^2]: GDP projected data: https://tntcat.iiasa.ac.at/SspDb/dsd?Action=htmlpage&page=citation, 
+GDP historical data: https://data.worldbank.org/, 
 Climate-related variables historical and projected data: https://climateknowledgeportal.worldbank.org
 
 # Dataset description and Code
@@ -27,13 +27,13 @@ The following paragraphs contain additional info on the dataset.
 
 | Variable Name  | Description |
 | ------------- | ------------- |
-| GDP  | Gross Domestic Product per capita |
-| TMP  | Average annual temperature  |
-| PRE  | Average annual precipitations  |
-|  r20mm | Precipitations >20mm  |
-|  cwd | Maximum number of consecutive wet days  |
-|  cdd | Maximum number of consecutive dry days  |
-|  txx | Maximum daily temperature  |
+| **GDP**  | Gross Domestic Product per capita |
+| **TMP**  | Average annual temperature  |
+| **PRE**  | Average annual precipitations  |
+|  **r20mm** | Precipitations >20mm  |
+|  **cwd** | Maximum number of consecutive wet days  |
+|  **cdd** | Maximum number of consecutive dry days  |
+|  **txx** | Maximum daily temperature  |
 
 ## CMIP6 and Climate Projections
 
