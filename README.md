@@ -1,4 +1,6 @@
-![screenshot](imp.jpg)
+<p align="center">
+  <img width="560" height="330" src="img.jpg">
+</p>
 
 # Climate Change Projections Dataset
 Climate change stands as one of the defining challenges of the 21st century, with its far-reaching impacts permeating every facet of human existence. From altering weather patterns to exacerbating natural disasters, the consequences of a warming planet reverberate across ecosystems, economies, and societies worldwide.
