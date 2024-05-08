@@ -42,14 +42,23 @@ The SSP framework emerged from the need for a standardized approach to integrate
 SSPs are characterized by five distinct narratives, each depicting a unique vision of the future:
 
 **SSP1: Sustainability**
+
 SSP1 portrays a world where sustainability and environmental stewardship are paramount. It envisions rapid technological progress, low population growth, and a shift towards renewable energy sources. This pathway prioritizes sustainable development goals and emphasizes global cooperation to address climate change.
+
 **SSP2: Middle of the Road**
+
 SSP2 represents a future where current trends continue without significant deviation. It envisions moderate population growth, gradual technological advancements, and a mix of fossil fuels and renewable energy sources. This pathway reflects a world where socio-economic development follows historical patterns without major disruptions.
+
 **SSP3: Regional Rivalry**
+
 SSP3 depicts a world characterized by fragmented regional interests and limited global cooperation. It envisions high population growth, slow technological progress, and a reliance on fossil fuels. This pathway reflects a future marked by geopolitical tensions, resource competition, and uneven development.
+
 **SSP4: Inequality**
+
 SSP4 portrays a future defined by stark socio-economic disparities and limited environmental regulations. It envisions moderate population growth, slow technological progress, and a reliance on fossil fuels. This pathway highlights the challenges of addressing climate change in a world marked by inequality and social unrest.
+
 **SSP5: Fossil-Fueled Development**
+
 SSP5 represents a future where economic growth is prioritized over environmental concerns. It envisions high population growth, rapid technological progress focused on fossil fuel extraction, and limited efforts to mitigate climate change. This pathway underscores the risks of continued reliance on fossil fuels and the need for transformative change.
 
 
