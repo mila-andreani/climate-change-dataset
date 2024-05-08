@@ -6,7 +6,7 @@
 
 Climate change is shaping a  world different from the one that we are used to. The urgent need to adapt to this new reality and mitigate climate-related risks led to the implementation of numerous climate policies fostering the transition to a low-carbon economy. 
 
-_...But what will happen if the climate targets won't be met? How will future socio-economic adaptations reshape the reality that we currently live in?_
+_...But what will happen if the climate targets won't be met? How will future socio-economic adaptations reshape the reality that we currently live in?_ :crystal_ball:
 
 This dataset have been created to help researcher to make a little step towards answering these questions. This is part of my PhD thesis, in which a novel machine learning algorithm developed in the same dissertation [^1] has been used to assess the effects of the distruptive changes induced by climate shocks on the future economic system.
 
