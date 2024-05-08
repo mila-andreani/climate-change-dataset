@@ -2,13 +2,13 @@ type: dataset
 cff-version: 1.2.0
 message: "If you use this software, please cite it as below."
 authors:
-- family-names: "Mila"
-  given-names: "Andreani"
-- family-names: "Lea"
-  given-names: "Petrella"
-- family-names: "Nicola"
-  given-names: "Salvati"
-title: "Climate Change projections and historical data dataset"
+- family-names: "Andreani"
+  given-names: "Mila"
+- family-names: "Petrella"
+  given-names: "Lea"
+- family-names: "Salvati"
+  given-names: "Nicola"
+title: "A Longitudinal dataset on climate projections and economic variables"
 version: 2.0.4
 doi: 10.5281/zenodo.1234
 date-released: 2024-05-08
