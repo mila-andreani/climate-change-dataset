@@ -9,7 +9,7 @@ In particular, the dataset amalgamates historical climate data with forward-look
 
 # Dataset description and Code
 
-The dataset contains annual longitudinal data concerning climate-related variables and GDP. The folder **_'hist'_** contains historical data from 1995 to 2014 of 210 countries, whereas the folder **_'proj'_** contains annual projected data of the climate-related variables as formulated in the Coupled Model Intercomparison Project Phase 6 (CMIP6) from 2015 to 2100 under four different scenarios: SSP1, SSP2, SSP3, SSP5.
+The dataset contains annual longitudinal data concerning climate-related variables and GDP. The folder **_'hist'_** contains historical data from 1995 to 2014 of 210 countries, whereas the folder **_'projections'_** contains annual projected data of the climate-related variables as formulated in the Coupled Model Intercomparison Project Phase 6 (CMIP6) from 2015 to 2100 under four different scenarios: SSP1, SSP2, SSP3, SSP5.
 
 The dataset contains also the stationarised version of the historical and projected dataframes.
 
