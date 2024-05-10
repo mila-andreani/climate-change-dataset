@@ -4,6 +4,9 @@
 
 # Climate Change Projections Dataset
 
+[![License: CC BY 4.0](https://img.shields.io/badge/License-CC%20BY%204.0-lightgrey.svg)](http://creativecommons.org/licenses/by/4.0/)
+[![built with Python2.7](https://img.shields.io/badge/build%20with-python2.7-red.svg)](https://www.python.org/)
+
 Climate change is shaping a  world different from the one that we are used to. The urgent need to adapt to this new reality and mitigate climate-related risks led to the implementation of numerous climate policies fostering the transition to a low-carbon economy. 
 
 _...But what will happen if the climate targets won't be met? How will future socio-economic adaptations reshape the reality that we currently live in?_ 
@@ -19,7 +22,7 @@ GDP historical data: https://data.worldbank.org/,
 Climate-related variables historical and projected data: https://climateknowledgeportal.worldbank.org
 
 
-# Dataset description and Code
+# Dataset Description and Code
 
 The dataset contains annual longitudinal data concerning climate-related variables and GDP. 
 
