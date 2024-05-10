@@ -5,7 +5,7 @@
 # Climate Change Projections Dataset
 
 [![License: CC BY 4.0](https://img.shields.io/badge/License-CC%20BY%204.0-lightgrey.svg)](http://creativecommons.org/licenses/by/4.0/)
-[![built with Python2.7](https://img.shields.io/badge/build%20with-python2.7-red.svg)](https://www.python.org/)
+[![built with R](https://img.shields.io/badge/build%20with-R-red.svg)](https://www.r-project.org))
 
 Climate change is shaping a  world different from the one that we are used to. The urgent need to adapt to this new reality and mitigate climate-related risks led to the implementation of numerous climate policies fostering the transition to a low-carbon economy. 
 
