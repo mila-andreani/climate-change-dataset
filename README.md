@@ -21,15 +21,14 @@ Climate-related variables historical and projected data: https://climateknowledg
 
 # Dataset description and Code
 
-The dataset contains annual longitudinal data concerning climate-related variables and GDP. The folder **_'hist'_** contains historical data from 1995 to 2014 of 210 countries, whereas the folder **_'projections'_** contains annual projected data of the climate-related variables as formulated in CMIP6 from 2015 to 2100 under four different scenarios: SSP1, SSP2, SSP3, SSP5.
+The dataset contains annual longitudinal data concerning climate-related variables and GDP. 
 
-The dataset contains also the stationarised version of the historical and projected dataframes.
+Up to now the projects is structured as follows:
 
-Two additional files are present: the _'countries_info.xlsx'_ file contains info on the ISO-3 country codes and ids used in the dataset. The _'proj_gdp.xlsx'_ contains additional projections of GDP every 5 years up to 2100.
-
-The code contained in the folder **_'R'_** allows to re-create the the longitudinal datasets (also the stationarized version) using R starting from raw data, contained in the .zip files 'raw_data' to be unzipped before running the code.
-
-The following paragraphs contain additional info on the dataset.
+- [`R/`](R): contains the scripts to re-create the the longitudinal datasets (also the stationarized version) using R starting from raw data, contained in the .zip files 'raw_data' to be unzipped before running the code.
+- [`hist/`](hist): contains historical data from 1995 to 2014 of 210 countries.
+- [`projections/`](projections): contains annual projected data of the climate-related variables as formulated in CMIP6 from 2015 to 2100 under four different scenarios: SSP1, SSP2, SSP3, SSP5. For each SSP there are also .zip files ('raw_data') with the original data for each country in the sample. The folder contain also the file _'proj_gdp.xlsx'_, with additional projections for each SSP of GDP every 5 years up to 2100.
+- [`countries_info.xlsx`](countries_info.xlsx): contains info on the ISO-3 country codes and ids used in the dataset. 
 
 ## Variables
 
@@ -86,10 +85,19 @@ SSP5 represents a future where economic growth is prioritized over environmental
 If you plan to use this dataset or other resources you'll find in this page, please cite this repository:
 
 	@misc{Andreani2024,
-  author = {Andreani, Mila},
-  title = {Climate Change Projections Dataset},
-  year = {2024},
-  publisher = {GitHub},
-  journal = {GitHub repository},
-  howpublished = {\url{[https://github.com/charlespwd/project-title](https://github.com/mila-andreani/climate-change-dataset)}}
-}
+   	author = {Andreani, Mila},
+ 	title = {Climate Change Projections Dataset},
+  	year = {2024},
+  	publisher = {GitHub},
+  	journal = {GitHub repository},
+  	howpublished = {\url{[https://github.com/charlespwd/project-title](https://github.com/mila-andreani/climate-change-dataset)}}
+	}
+ ## License
+
+This work is licensed under a <a href="https://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</a>. 
+
+----------------------------------------------
+
+## Author
+
+* Mila Andreani - email: *mila.andreani@sns.it*
