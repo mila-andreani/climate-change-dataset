@@ -87,14 +87,14 @@ SSP5 represents a future where economic growth is prioritized over environmental
 
 If you plan to use this dataset or other resources you'll find in this page, please cite this repository:
 
-	@misc{Andreani2024,
-   	author = {Andreani, Mila},
- 	title = {Climate Change Projections Dataset},
-  	year = {2024},
-  	publisher = {GitHub},
-  	journal = {GitHub repository},
-  	howpublished = {\url{[https://github.com/charlespwd/project-title](https://github.com/mila-andreani/climate-change-dataset)}}
-	}
+	@misc{Andreani_A_Longitudinal_dataset_2024,
+ 		author = {Andreani, Mila and Petrella, Lea and Salvati, Nicola},
+		doi = {10.5281/zenodo.1234},
+		month = may,
+		title = {{A Longitudinal dataset on climate projections and economic variables}},
+		url = {https://github.com/mila-cc/climate-change-dataset},
+		year = {2024}
+		}
  ## License
 
 This work is licensed under a <a href="https://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</a>. 
