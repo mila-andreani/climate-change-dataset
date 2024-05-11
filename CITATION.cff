@@ -10,6 +10,5 @@ authors:
   given-names: "Nicola"
 title: "A Longitudinal dataset on climate projections and economic variables"
 version: 2.0.4
-doi: 10.5281/zenodo.1234
 date-released: 2024-05-08
 url: "https://github.com/mila-cc/climate-change-dataset"
