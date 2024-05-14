@@ -21,7 +21,18 @@ In particular, the dataset amalgamates historical climate data with forward-look
 GDP historical data: https://data.worldbank.org/, 
 Climate-related variables historical and projected data: https://climateknowledgeportal.worldbank.org
 
+# Ready to use Datasets
 
+The datasets can be downloaded in R:
+ 
+'''r
+library(readr)
+hist <- read_csv("https://raw.githubusercontent.com/mila-andreani/climate-change-dataset/main/hist/hist.csv")
+SSP1 <- read_csv("https://raw.githubusercontent.com/mila-andreani/climate-change-dataset/main/projections/SSP1/projSSP1.csv")
+SSP2 <- read_csv("https://raw.githubusercontent.com/mila-andreani/climate-change-dataset/main/projections/SSP2/projSSP2.csv")
+SSP3 <- read_csv("https://raw.githubusercontent.com/mila-andreani/climate-change-dataset/main/projections/SSP3/projSSP3.csv")
+SSP5 <- read_csv("https://raw.githubusercontent.com/mila-andreani/climate-change-dataset/main/projections/SSP5/projSSP5.csv")
+'''
 # Dataset Description and Code
 
 The dataset contains annual longitudinal data concerning climate-related variables and GDP. 
