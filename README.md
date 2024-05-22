@@ -6,7 +6,8 @@
 
  
 
-<img align="left" src="img.jpeg" width="360" height="360"> Climate change is shaping a  world different from the one that we are used to. The urgent need to adapt to this new reality and mitigate climate-related risks led to the implementation of numerous climate policies fostering the transition to a low-carbon economy. 
+<img align="left" src="img.jpeg" width="260" height="260"> Climate change is shaping a  world different from the one that we are used to. The urgent need to adapt to this new reality and mitigate climate-related risks led to the implementation of numerous climate policies fostering the transition to a low-carbon economy. 
+
 
 _...But what will happen if the climate targets won't be met? How will future socio-economic adaptations reshape the reality that we currently live in?_
 
