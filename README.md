@@ -1,5 +1,5 @@
 <p align="center">
-  <img width="560" height="330" src="img.jpg">
+  <img width="560" height="330" src="img.png">
 </p>
 
 # Climate Change Projections Dataset
