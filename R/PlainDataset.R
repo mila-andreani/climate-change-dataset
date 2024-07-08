@@ -1,24 +1,24 @@
 #Plain Dataset
 
 #Load data of GDP. The csv files have semicolon as delimiter.
-GDP <- as.data.frame(read_delim("hist/hist_gdp/hist_gdp.csv", 
+GDP <- as.data.frame(read_delim("hist/raw_data_hist/hist_gdp/hist_gdp.csv", 
                                 ";", escape_double = FALSE, trim_ws = TRUE))
 
 
 #We first create subsets for each variable, then we create the final dataset with historical and projected data in a longitudinal shape
 
 ##PRECIPITATIONS
-pre_country=sub_dataset("hist/hist_pre/", country_list, 1995,2014)
+pre_country=sub_dataset("hist/raw_data_hist/hist_pre/", country_list, 1995,2014)
 ####TEMPERATURE
-tmp_country=sub_dataset("hist/hist_tmp/", country_list, 1995,2014)
+tmp_country=sub_dataset("hist/raw_data_hist/hist_tmp/", country_list, 1995,2014)
 #####PREC >20mm
-r20mm_country=sub_dataset("hist/hist_pre20mm/", country_list, 1995,2014)
+r20mm_country=sub_dataset("hist/raw_data_hist/hist_pre20mm/", country_list, 1995,2014)
 ####MAX NUMBER CONS WET DAYS
-cwd_country=sub_dataset("hist/hist_conswet/", country_list, 1995,2014)
+cwd_country=sub_dataset("hist/raw_data_hist/hist_conswet/", country_list, 1995,2014)
 ####MAX NUMBER CONS DRY DAYS
-cdd_country=sub_dataset("hist/hist_consdry/", country_list, 1995,2014)
+cdd_country=sub_dataset("hist/raw_data_hist/hist_consdry/", country_list, 1995,2014)
 ####MAXIMUM OF DAILY MAX TMP
-txx_country=sub_dataset("hist/hist_txx/", country_list, 1995,2014)
+txx_country=sub_dataset("hist/raw_data_hist/hist_txx/", country_list, 1995,2014)
 
 
 
@@ -27,17 +27,17 @@ txx_country=sub_dataset("hist/hist_txx/", country_list, 1995,2014)
 #################################
 
 ####PRECIPITATION
-proj_pre_country=sub_dataset(paste0('projections/', SSP ,'/proj_pre/'), country_list, 2015,2100) #the start and end year change according to the projection span
+proj_pre_country=sub_dataset(paste0('projections/', SSP , '/raw_data_', SSP ,'/proj_pre/'), country_list, 2015,2100) #the start and end year change according to the projection span
 ####TEMPERATURE
-proj_tmp_country=sub_dataset(paste0('projections/', SSP ,'/proj_tmp/'), country_list, 2015,2100)
+proj_tmp_country=sub_dataset(paste0('projections/', SSP , '/raw_data_', SSP ,'/proj_tmp/'), country_list, 2015,2100)
 #####PREC >20mm
-proj_r20mm_country=sub_dataset(paste0('projections/', SSP ,'/proj_pre20mm/'), country_list, 2015,2100)
+proj_r20mm_country=sub_dataset(paste0('projections/', SSP , '/raw_data_', SSP ,'/proj_pre20mm/'), country_list, 2015,2100)
 ####MAX NUMBER CONS WET DAYS
-proj_cwd_country=sub_dataset(paste0('projections/', SSP ,'/proj_conswet/'), country_list, 2015,2100)
+proj_cwd_country=sub_dataset(paste0('projections/', SSP , '/raw_data_', SSP ,'/proj_conswet/'), country_list, 2015,2100)
 ####MAX NUMBER CONS DRY DAYS
-proj_cdd_country=sub_dataset(paste0('projections/', SSP ,'/proj_consdry/'), country_list, 2015,2100)
+proj_cdd_country=sub_dataset(paste0('projections/', SSP , '/raw_data_', SSP ,'/proj_consdry/'), country_list, 2015,2100)
 ####MAXIMUM OF DAILY MAX TMP
-proj_txx_country=sub_dataset(paste0('projections/', SSP ,'/proj_txx/'), country_list, 2015,2100)
+proj_txx_country=sub_dataset(paste0('projections/', SSP , '/raw_data_', SSP ,'/proj_txx/'), country_list, 2015,2100)
 
 ####################################
 ######LONGITUDINAL DATASET CREATION
@@ -171,7 +171,7 @@ total_proj=cbind(panel_tmp_proj, panel_pre_proj[,-c(1:2)],
 ###################
 ###### write files
 ###################
-library(xlsx)
+
 write.csv(as.data.frame(total_proj), paste0('projections/', SSP, '/proj', SSP, '.csv'), row.names = FALSE)
 
 

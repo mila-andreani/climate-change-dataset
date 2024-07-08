@@ -46,7 +46,7 @@ matrix_with_lags <- function(matrix, lag_max, var_name){
 
 mat_differences <- function (matrix, start_year, end_year) {
   
-  matrix_diff=cbind(t(apply(pre_matrix, 1, function(x) diff(as.numeric(x)))))
+  matrix_diff=cbind(t(apply(matrix, 1, function(x) diff(as.numeric(x)))))
   colnames(matrix_diff)=c(seq(start_year,end_year, by=1))
   
   return(matrix_diff)

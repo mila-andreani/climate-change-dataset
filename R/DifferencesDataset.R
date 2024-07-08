@@ -1,7 +1,7 @@
 ####Differences Dataset
 
 #Upload GDP_growth data
-GDP_grt=as.data.frame(read_delim("hist/hist_gdp/hist_gdp_growth.csv", 
+GDP_grt=as.data.frame(read_delim("hist/raw_data_hist/hist_gdp/hist_gdp_growth.csv", 
                                  ";", escape_double = FALSE, trim_ws = TRUE))
 
 ####PRECIPITATION
@@ -141,7 +141,7 @@ total_proj=cbind(panel_tmp_proj, panel_pre_proj[,-c(1:2)],
 ###################
 ###### write files
 ###################
-library(xlsx)
+
 write.csv(as.data.frame(total_proj), paste0('projections/', SSP, '/proj_diff_', SSP, '.csv'), row.names = FALSE)
 
 
